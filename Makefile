@@ -90,6 +90,11 @@ logs:
 status:
 	docker compose ps
 
+git:
+	@git add .
+	@git commit -m "salut"
+	@git push
+
 # ATTENTION : cette commande supprime definitivement les donnees
 # stockees dans le volume PostgreSQL.
 reset-db:
